@@ -1,4 +1,5 @@
 import "@nomiclabs/hardhat-waffle";
+import "@typechain/hardhat";
 import "dotenv/config";
 import "hardhat-contract-sizer";
 import { HardhatUserConfig } from "hardhat/config";

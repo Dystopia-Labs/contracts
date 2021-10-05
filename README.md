@@ -31,7 +31,7 @@ npm run compile
 
 ## Deploying contracts
 
-### Token contract
+### Token 
 
 To run a dry-run deployment of the token contract, from project root run:
 
@@ -43,4 +43,26 @@ To deploy the token contract to Ethereum mainnet, from project root run:
 
 ```shell
 npm run deploy:token
+```
+
+### Vester
+
+To run a dry-run deployment of the vester contract, from project root run:
+
+```shell
+npm run deploy:vester:dry-run
+```
+
+To deploy the vester contract to Ethereum mainnet, from project root run:
+
+```shell
+npm run deploy:vester
+```
+
+## Testing contracts
+
+To test the contracts, from project root run the following:
+
+```shell
+npm run test
 ```
