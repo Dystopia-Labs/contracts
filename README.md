@@ -31,7 +31,7 @@ npm run compile
 
 ## Deploying contracts
 
-### Token 
+### Token
 
 To run a dry-run deployment of the token contract, from project root run:
 
@@ -66,3 +66,10 @@ To test the contracts, from project root run the following:
 ```shell
 npm run test
 ```
+
+# Summary of Important Terms for $WGMI
+
+- $WGMI is the social token of Dystopia Labs, Inc. It exists on the Ethereum blockchain at [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) and the maximum supply of $WGMI is 1,000,000,000.
+- You can agree to lock up $WGMI for access to events and event partner services according to mutually agreed upon commercial engagement terms.
+- After the lockup period has transpired, all previously locked up $WGMI tokens expire and cannot be redeemed for access to event and event partner services until a new lockup and new commercial engagement terms have been agreed upon.
+- Please read the full [Terms of Service](/TERMS_OF_SERVICE.md#terms-of-service-for-wgmi). By buying or agreeing to lock up $WGMI you are agreeing to the Terms of Service.
