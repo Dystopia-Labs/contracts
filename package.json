@@ -23,7 +23,8 @@
   "keywords": [
     "dystopia labs",
     "smart contracts",
-    "solidity"
+    "solidity",
+    "wgmi"
   ],
   "license": "MIT",
   "devDependencies": {
