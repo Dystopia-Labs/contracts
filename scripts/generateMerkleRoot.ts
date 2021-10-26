@@ -1,6 +1,7 @@
 import { program } from "commander";
 import { readFileSync } from "fs";
-import { parseBalanceMap } from "./parseBalanceMap";
+
+import { parseBalanceMap } from "./lib/parseBalanceMap";
 
 program
   .version("0.0.0")

@@ -1,6 +1,7 @@
 import { ethers } from "hardhat";
+
 // TODO: import generated merkle root json file
-import { merkleRoot } from "./exampleClaimsListResult.json";
+import { merkleRoot } from "./lib/exampleClaimsListResult.json";
 import { MerkleDistributor__factory } from "../typechain";
 
 const tokenAddress = "0x743b8f01E33E4d8358893a196aefa4C4E8712b37";

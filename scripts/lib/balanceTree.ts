@@ -1,5 +1,6 @@
-import MerkleTree from "./merkleTree";
 import { BigNumber, utils } from "ethers";
+
+import MerkleTree from "./merkleTree";
 
 export default class BalanceTree {
   private readonly tree: MerkleTree;

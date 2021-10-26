@@ -1,6 +1,6 @@
 import { program } from "commander";
-import { readFileSync } from "fs";
 import { BigNumber, utils } from "ethers";
+import { readFileSync } from "fs";
 
 program
   .version("0.0.0")
