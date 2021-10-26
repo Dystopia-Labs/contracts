@@ -11,9 +11,13 @@
     "deploy:token:dry-run": "hardhat run scripts/deployToken.ts",
     "deploy:vester": "hardhat run --network mainnet scripts/deployVester.ts",
     "deploy:vester:dry-run": "hardhat run scripts/deployVester.ts",
+    "generate:merkle-root": "ts-node scripts/generateMerkleRoot.ts",
+    "generate:merkle-root:example": "ts-node scripts/generateMerkleRoot.ts -i scripts/exampleClaimsList.json",
     "lint": "eslint . --ext .ts",
     "prepare": "husky install",
-    "test": "hardhat test"
+    "test": "hardhat test",
+    "verify:merkle-root": "ts-node scripts/verifyMerkleRoot.ts",
+    "verify:merkle-root:example": "ts-node scripts/verifyMerkleRoot.ts -i scripts/exampleClaimsListResult.json"
   },
   "lint-staged": {
     "*.{js,ts}": [
