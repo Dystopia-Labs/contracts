@@ -6,9 +6,14 @@ description: Overview of architecture and smart contracts.
 
 ## Architecture Overview
 
-| Contract     | Address                                                                                                               |
-| :----------- | :-------------------------------------------------------------------------------------------------------------------- |
-| Token (WGMI) | [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) |
+| Contract              | Address                                                                                                               |
+| :-------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| Token (WGMI)          | [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) |
+| Vester (Ellipti)      | [0x52F24E4e4cc43fBdD9e7eb54F60FFA857d0A05da](https://etherscan.io/address/0x52F24E4e4cc43fBdD9e7eb54F60FFA857d0A05da) |
+| Vester (Figment)      | [0xdD3cd75d485d833491D40C441249bBC955C17fc7](https://etherscan.io/address/0xdD3cd75d485d833491D40C441249bBC955C17fc7) |
+| Vester (Harmony)      | [0xeDcc2BdE8BC6eec12BBe743255d5b026a98086a7](https://etherscan.io/address/0xeDcc2BdE8BC6eec12BBe743255d5b026a98086a7) |
+| Vester (Mask Network) | [0x9BF157c7a4Ecc4C490e5cD7b2f6976c04048F8e4](https://etherscan.io/address/0x9BF157c7a4Ecc4C490e5cD7b2f6976c04048F8e4) |
+| Vester (UMA)          | [0x1bAd2d7Cdbd78c7A9D7e7260aBcA29cbbb0485d3](https://etherscan.io/address/0x1bAd2d7Cdbd78c7A9D7e7260aBcA29cbbb0485d3) |
 
 ## Open-source code & vetted
 
