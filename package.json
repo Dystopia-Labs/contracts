@@ -5,13 +5,17 @@
   "version": "0.1.0",
   "scripts": {
     "compile": "hardhat compile",
-    "deploy:token": "hardhat run --network mainnet scripts/deployToken.ts",
-    "deploy:token:dry-run": "hardhat run scripts/deployToken.ts",
+    "deploy:merkle": "hardhat run --network mainnet scripts/deployMerkleDistributor.ts",
+    "deploy:merkle:dry-run": "hardhat run scripts/deployMerkleDistributor.ts",
     "deploy:vester": "hardhat run --network mainnet scripts/deployVester.ts",
     "deploy:vester:dry-run": "hardhat run scripts/deployVester.ts",
+    "generate:merkle": "ts-node scripts/generateMerkleRoot.ts",
+    "generate:merkle:example": "ts-node scripts/generateMerkleRoot.ts -i scripts/lib/exampleClaimsList.json",
     "lint": "eslint . --ext .ts",
     "prepare": "husky install",
-    "test": "hardhat test"
+    "test": "hardhat test",
+    "verify:merkle": "ts-node scripts/verifyMerkleRoot.ts",
+    "verify:merkle:example": "ts-node scripts/verifyMerkleRoot.ts -i scripts/lib/exampleClaimsListResult.json"
   },
   "lint-staged": {
     "*.{js,ts}": [
@@ -21,7 +25,8 @@
   "keywords": [
     "dystopia labs",
     "smart contracts",
-    "solidity"
+    "solidity",
+    "wgmi"
   ],
   "license": "MIT",
   "devDependencies": {

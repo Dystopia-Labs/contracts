@@ -31,18 +31,46 @@ npm run compile
 
 ## Deploying contracts
 
-### Token
+### MerkleDistributor
 
-To run a dry-run deployment of the token contract, from project root run:
+To run a dry-run deployment of the merkle distributor contract, from project root run:
 
 ```shell
-npm run deploy:token:dry-run
+npm run deploy:merkle:dry-run
 ```
 
-To deploy the token contract to Ethereum mainnet, from project root run:
+To deploy the merkle distributor contract to Ethereum mainnet, from project root run:
 
 ```shell
-npm run deploy:token
+npm run deploy:merkle
+```
+
+#### Generating Merkle roots
+
+To generate an example Merkle root, from project root run:
+
+```shell
+npm run generate:merkle:example
+```
+
+To generate your own Merkle root, from project root run:
+
+```shell
+npm run generate:merkle --input <path-to-claims-list-json-file>
+```
+
+#### Verifying Merkle roots
+
+To verify the example Merkle root, from project root run:
+
+```shell
+npm run verify:merkle:example
+```
+
+To verify your own Merkle root, from project root run:
+
+```shell
+npm run verify:merkle --input <path-to-claims-list-result-json-file>
 ```
 
 ### Vester
