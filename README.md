@@ -31,6 +31,20 @@ npm run compile
 
 ## Deploying contracts
 
+### EthERC20BalanceChecker
+
+To run a dry-run deployment of the ETH ERC20 balance checker contract, from project root run:
+
+```shell
+npm run deploy:balance-checker:dry-run
+```
+
+To deploy the ETH ERC20 balance checker contract to xDai, from project root run:
+
+```shell
+npm run deploy:balance-checker
+```
+
 ### MerkleDistributor
 
 To run a dry-run deployment of the merkle distributor contract, from project root run:
