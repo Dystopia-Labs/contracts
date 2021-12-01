@@ -2,6 +2,7 @@
 pragma solidity 0.8.10;
 
 import "./BasicAMBInformationReceiver.sol";
+import "./BasicMetaTransaction.sol";
 import "../interfaces/IERC20.sol";
 
 /**
@@ -9,7 +10,10 @@ import "../interfaces/IERC20.sol";
  * @dev Used to check the balance of an ERC20 token for a given address on Ethereum mainnet.
  * Intended to be deployed and called from an L2 sidechain using a TokenBridge AMB.
  */
-contract EthERC20BalanceChecker is BasicAMBInformationReceiver {
+contract EthERC20BalanceChecker is
+    BasicAMBInformationReceiver,
+    BasicMetaTransaction
+{
     mapping(bytes32 => uint256) public response;
 
     constructor(IHomeAMB _bridge) AMBInformationReceiverStorage(_bridge) {}
