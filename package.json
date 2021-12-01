@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "scripts": {
     "compile": "hardhat compile",
+    "deploy:balance-checker": "hardhat run --network xDai scripts/deployEthERC20BalanceChecker.ts",
+    "deploy:balance-checker:dry-run": "hardhat run scripts/deployEthERC20BalanceChecker.ts",
     "deploy:merkle": "hardhat run --network mainnet scripts/deployMerkleDistributor.ts",
     "deploy:merkle:dry-run": "hardhat run scripts/deployMerkleDistributor.ts",
     "deploy:vester": "hardhat run --network mainnet scripts/deployVester.ts",
