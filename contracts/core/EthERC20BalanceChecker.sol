@@ -14,8 +14,6 @@ contract EthERC20BalanceChecker is
     BasicAMBInformationReceiver,
     BasicMetaTransaction
 {
-    mapping(bytes32 => uint256) public response;
-
     constructor(IHomeAMB _bridge) AMBInformationReceiverStorage(_bridge) {}
 
     function requestBalanceOf(IERC20 _token, address _owner) external {
@@ -24,7 +22,7 @@ contract EthERC20BalanceChecker is
             _owner
         );
         bytes memory data = abi.encode(_token, method);
-        _sendRemoteEthCall(data);
+        _sendRemoteEthCall(data, _token, _owner);
     }
 
     function _onResultReceived(bytes32 _messageId, bytes memory _result)
@@ -33,13 +31,20 @@ contract EthERC20BalanceChecker is
     {
         bytes memory unwrapped = _unwrap(_result);
         require(unwrapped.length == 32);
-        response[_messageId] = abi.decode(unwrapped, (uint256));
+        response[_messageId].expirationTimestamp = block.timestamp + 24 hours;
+        response[_messageId].tokenBalance = abi.decode(unwrapped, (uint256));
     }
 
-    function _sendRemoteEthCall(bytes memory _data) private {
+    function _sendRemoteEthCall(
+        bytes memory _data,
+        IERC20 _token,
+        address _owner
+    ) private {
         bytes32 selector = keccak256("eth_call(address,bytes)");
         lastMessageId = bridge.requireToGetInformation(selector, _data);
-        status[lastMessageId] = Status.Pending;
+        response[lastMessageId].status = Status.Pending;
+        response[lastMessageId].tokenAddress = address(_token);
+        response[lastMessageId].tokenOwner = _owner;
     }
 
     function _unwrap(bytes memory _result)

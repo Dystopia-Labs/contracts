@@ -17,7 +17,16 @@ contract AMBInformationReceiverStorage {
         Unknown
     }
 
-    mapping(bytes32 => Status) public status;
+    struct Data {
+        address tokenAddress;
+        address tokenOwner;
+        uint256 expirationTimestamp;
+        uint256 tokenBalance;
+        Status status;
+    }
+
+    mapping(bytes32 => Data) public response;
+
     bytes32 public lastMessageId;
 
     constructor(IHomeAMB _bridge) {

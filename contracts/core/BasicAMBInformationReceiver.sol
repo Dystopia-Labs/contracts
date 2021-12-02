@@ -22,7 +22,7 @@ abstract contract BasicAMBInformationReceiver is
         if (_status) {
             _onResultReceived(_messageId, _result);
         }
-        status[_messageId] = _status ? Status.Ok : Status.Failed;
+        response[_messageId].status = _status ? Status.Ok : Status.Failed;
     }
 
     function _onResultReceived(bytes32 _messageId, bytes memory _result)
