@@ -13,6 +13,7 @@ description: Overview of architecture and smart contracts.
 | Vester (Figment)      | [0xdD3cd75d485d833491D40C441249bBC955C17fc7](https://etherscan.io/address/0xdD3cd75d485d833491D40C441249bBC955C17fc7) |
 | Vester (Harmony)      | [0xeDcc2BdE8BC6eec12BBe743255d5b026a98086a7](https://etherscan.io/address/0xeDcc2BdE8BC6eec12BBe743255d5b026a98086a7) |
 | Vester (Mask Network) | [0x9BF157c7a4Ecc4C490e5cD7b2f6976c04048F8e4](https://etherscan.io/address/0x9BF157c7a4Ecc4C490e5cD7b2f6976c04048F8e4) |
+| Vester (RAID)         | [0xc4af6Cd6aFA0a4a89dB2EdF73B62F4BdC32E6b6d](https://etherscan.io/address/0xc4af6Cd6aFA0a4a89dB2EdF73B62F4BdC32E6b6d) |
 | Vester (UMA)          | [0x1bAd2d7Cdbd78c7A9D7e7260aBcA29cbbb0485d3](https://etherscan.io/address/0x1bAd2d7Cdbd78c7A9D7e7260aBcA29cbbb0485d3) |
 
 ## Open-source code & vetted
