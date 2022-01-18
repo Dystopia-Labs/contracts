@@ -9,6 +9,7 @@ description: Overview of architecture and smart contracts.
 | Contract              | Address                                                                                                               |
 | :-------------------- | :-------------------------------------------------------------------------------------------------------------------- |
 | Token (WGMI)          | [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) |
+| Vester (1inch)        | [0xeb8b5f237f856f99c0c5826b2526042a2774af7a](https://etherscan.io/address/0xeb8b5f237f856f99c0c5826b2526042a2774af7a) |
 | Vester (Ellipti)      | [0x52F24E4e4cc43fBdD9e7eb54F60FFA857d0A05da](https://etherscan.io/address/0x52F24E4e4cc43fBdD9e7eb54F60FFA857d0A05da) |
 | Vester (Figment)      | [0xdD3cd75d485d833491D40C441249bBC955C17fc7](https://etherscan.io/address/0xdD3cd75d485d833491D40C441249bBC955C17fc7) |
 | Vester (Harmony)      | [0xeDcc2BdE8BC6eec12BBe743255d5b026a98086a7](https://etherscan.io/address/0xeDcc2BdE8BC6eec12BBe743255d5b026a98086a7) |
