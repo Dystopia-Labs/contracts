@@ -4,7 +4,7 @@
 
 # Terms of Service for $WGMI
 
-These Terms of Service (“Terms”) form a binding legal agreement between each person who holds or has locked up $WGMI tokens (“you”) and Dystopia Labs, Inc (“Dystopia Labs”). $WGMI tokens exist on the Ethereum blockchain at [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37).
+These Terms of Service (“Terms”) form a binding legal agreement between each person who holds or has locked up $WGMI tokens (“you”) and Dystopia Labs, Inc (“Dystopia Labs”). $WGMI tokens exist on the Ethereum blockchain at [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) and on the Polygon blockchain at [0x5f609496b86f5a149b3e131c3ff19f3ee7512973](https://polygonscan.com/address/0x5f609496b86f5a149b3e131c3ff19f3ee7512973).
 
 ##### Acquiring $WGMI
 
