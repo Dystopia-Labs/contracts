@@ -97,7 +97,7 @@ npm run test
 
 # Summary of Important Terms for $WGMI
 
-- $WGMI is the social token of Dystopia Labs, Inc. It exists on the Ethereum blockchain at [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) and the maximum supply of $WGMI is 1,000,000,000.
+- $WGMI is the social token of Dystopia Labs, Inc. It exists on the Ethereum blockchain at [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) and on the Polygon blockchain at [0x5f609496b86f5a149b3e131c3ff19f3ee7512973](https://polygonscan.com/address/0x5f609496b86f5a149b3e131c3ff19f3ee7512973). The maximum supply of $WGMI is 1,000,000,000.
 - You can agree to hold $WGMI for access to Dystopia Labs' services, or lock up $WGMI for access to events and event partner services according to mutually agreed upon commercial engagement terms.
 - When agreeing to lock up $WGMI, after the lockup period has ended, all previously locked up $WGMI tokens expire and cannot be redeemed for access to event and event partner services until a new lockup and new commercial engagement terms have been agreed upon.
 - Please read the full [Terms of Service](/TERMS_OF_SERVICE.md#terms-of-service-for-wgmi). By buying, holding, or agreeing to lock up $WGMI you are agreeing to the Terms of Service.
