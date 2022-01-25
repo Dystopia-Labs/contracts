@@ -9,6 +9,7 @@ description: Overview of architecture and smart contracts.
 | Contract              | Address                                                                                                               |
 | :-------------------- | :-------------------------------------------------------------------------------------------------------------------- |
 | Token (WGMI)          | [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) |
+| Token (Polygon WGMI)          | [0x5f609496b86f5a149b3e131c3ff19f3ee7512973](https://polygonscan.com/address/0x5f609496b86f5a149b3e131c3ff19f3ee7512973) |
 | Vester (1inch)        | [0xeb8b5f237f856f99c0c5826b2526042a2774af7a](https://etherscan.io/address/0xeb8b5f237f856f99c0c5826b2526042a2774af7a) |
 | Vester (Ellipti)      | [0x52F24E4e4cc43fBdD9e7eb54F60FFA857d0A05da](https://etherscan.io/address/0x52F24E4e4cc43fBdD9e7eb54F60FFA857d0A05da) |
 | Vester (Figment)      | [0xdD3cd75d485d833491D40C441249bBC955C17fc7](https://etherscan.io/address/0xdD3cd75d485d833491D40C441249bBC955C17fc7) |
@@ -31,7 +32,7 @@ The vesting contract is forked from the Gitcoin vesting [contract](https://githu
 
 The Token contract was inspired by [Raid Guild](https://etherscan.io/address/0x154e35c2b0024b3e079c5c5e4fc31c979c189ccb#code) and is a basic [OpenZeppelin](https://docs.openzeppelin.com/contracts/2.x/erc20-supply#fixed-supply) token implementation. Minor changes have been made by the Dystopia Labs team.
 
-WGMI is deployed at [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) on the Ethereum mainnet.
+WGMI is deployed at [0x743b8f01e33e4d8358893a196aefa4c4e8712b37](https://etherscan.io/address/0x743b8f01e33e4d8358893a196aefa4c4e8712b37) on the Ethereum mainnet and [0x5f609496b86f5a149b3e131c3ff19f3ee7512973](https://polygonscan.com/address/0x5f609496b86f5a149b3e131c3ff19f3ee7512973) on the Polygon mainnet.
 
 ### Vester
 
