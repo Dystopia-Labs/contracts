@@ -12,7 +12,7 @@ These Terms of Service (“Terms”) form a binding legal agreement between each
 
    1.1 to agree to hold or lock up $WGMI for access to Dystopia Labs’ services; and
 
-   1.2 to sell, transfer, lend, gift or otherwise deal with $WGMI tokens as you see fit. This right is enforced by the $WGMI smart contract and the Ethereum blockchain and is noted here for completeness.
+   1.2 to sell, transfer, lend, gift or otherwise deal with $WGMI tokens as you see fit. This right is enforced by the $WGMI smart contract, the Ethereum blockchain, and the Polygon blockchain and is noted here for completeness.
 
 2. These Terms do not impose any obligations or liability on you if all you do is acquire, buy, sell or hold $WGMI. Redemption of $WGMI is subject to the terms set forth below.
 
@@ -20,7 +20,7 @@ These Terms of Service (“Terms”) form a binding legal agreement between each
 
 3. There is a maximum of 1,000,000,000 $WGMI tokens that will ever exist.
 
-4. This right is enforced by the $WGMI smart contract and the Ethereum blockchain and are noted here for completeness.
+4. This right is enforced by the $WGMI smart contract, the Ethereum blockchain, and the Polygon blockchain and is noted here for completeness.
 
 ##### Holding $WGMI for Membership Services
 
@@ -34,7 +34,7 @@ These Terms of Service (“Terms”) form a binding legal agreement between each
 
 8. If you attempt to hold $WGMI in contravention of the requirements listed in section 7 above, Dystopia Labs reserves the right to refuse to provide Membership Services and not refund any $WGMI that you have hold.
 
-9. In order to avoid any doubt, Dystopia Labs may require you to sign a message from the Ethereum address(es) that you intend to hold $WGMI from. This will only be required if there is any doubt or dispute about the person(s) claiming to hold and redeem $WGMI for services.
+9. In order to avoid any doubt, Dystopia Labs may require you to sign a message from the Ethereum address(es) and the Polygon address(es) that you intend to hold $WGMI from. This will only be required if there is any doubt or dispute about the person(s) claiming to hold and redeem $WGMI for services.
 
 10. Provided that the above criteria are met, Dystopia Labs agrees to provide access to membership services (“Membership Services”) to any person who agrees to hold $WGMI, on the terms set forth in these Terms.
 
@@ -78,10 +78,10 @@ These Terms of Service (“Terms”) form a binding legal agreement between each
 
 24. Notwithstanding any provision in these Terms to the contrary, no Party shall be liable hereunder for any consequential, special, or punitive damages (including lost profits).
 
-25. You accept and acknowledge that there are risks associated with holding or using $WGMI and using the Ethereum Network, including but not limited to, the risk of losing access to your Ethereum address due to loss of private keys, seed words or other credentials, and the risk of unknown vulnerabilities in the $WGMI smart contract code or the Ethereum Network Protocol. You acknowledge and accept all such risks and agree that Dystopia Labs is not responsible and is not liable for any loss of value you may experience as a result. You accept and acknowledge that Dystopia Labs will not be responsible for any losses, failures, disruptions, errors, distortions, or delays you may experience when holding or using $WGMI however caused.
+25. You accept and acknowledge that there are risks associated with holding or using $WGMI and using the Ethereum Network and the Polygon Network, including but not limited to, the risk of losing access to your Ethereum address and your Polygon address due to loss of private keys, seed words or other credentials, and the risk of unknown vulnerabilities in the $WGMI smart contract code, the Ethereum Network Protocol, or the Polygon Network Protocol. You acknowledge and accept all such risks and agree that Dystopia Labs is not responsible and is not liable for any loss of value you may experience as a result. You accept and acknowledge that Dystopia Labs will not be responsible for any losses, failures, disruptions, errors, distortions, or delays you may experience when holding or using $WGMI however caused.
 
 ##### Amendments; Updates to the Terms
 
 26. Dystopia Labs reserves the right, in Dystopia Labs’ sole and absolute discretion, to change, modify, add, or remove portions of these Terms at any time, by posting the amended terms here. You will be deemed to have accepted such changes following such amendment, and such amended terms will be effective immediately.
 
-Last Updated: October 21st, 2021
+Last Updated: January 25th, 2022
